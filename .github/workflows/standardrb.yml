@@ -11,3 +11,5 @@ jobs:
     steps:
     - name: Standard Ruby
       uses: wjessop/standard-ruby-action@v1
+      with:
+        workdir: monorepo/with/app/in/subdir
